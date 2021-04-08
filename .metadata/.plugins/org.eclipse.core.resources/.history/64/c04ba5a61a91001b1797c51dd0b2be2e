@@ -1,0 +1,13 @@
+
+<suite name="Suite">
+  <test name="Test">
+  <groups>
+  <run>
+  <include name="Sanity"/>
+  </run>
+  </groups>
+    <classes>
+      <class name="Grouping_Example.Groups1"/>
+    </classes>
+  </test> 
+</suite>

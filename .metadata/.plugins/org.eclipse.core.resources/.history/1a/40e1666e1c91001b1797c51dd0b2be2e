@@ -1,0 +1,14 @@
+
+<suite name="Suite">
+  <test name="Test">
+  <groups>
+  <run>
+  <include name="Regression"/>
+  <exclude name="Regression"/>
+  </run>
+  </groups>
+    <classes>
+      <class name="Grouping_Example.Groups1"/>
+    </classes>
+  </test> 
+</suite>

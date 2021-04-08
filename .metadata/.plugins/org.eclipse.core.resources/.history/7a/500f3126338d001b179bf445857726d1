@@ -1,0 +1,22 @@
+
+public class Pali_String {
+
+	public static void main(String[] args) {
+		String str="Prathiba";
+		String rev_str="";
+		for(int i=str.length();i>=0;i--)
+		{
+			rev_str+=str.charAt(i);
+		}
+		System.out.println(rev_str);
+		
+		if(rev_str.equalsIgnoreCase(str))
+		{
+			System.out.println("String id palindrome");
+		}
+		else
+			System.out.println("Not a palindrome");
+
+	}
+
+}

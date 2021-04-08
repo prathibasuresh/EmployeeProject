@@ -1,0 +1,14 @@
+package Grouping_Example;
+
+import org.testng.Reporter;
+import org.testng.annotations.Test;
+
+public class Groups1 {
+	
+	@Test
+	public void test1()
+	{
+		Reporter.log("This is test1",true);
+	}
+
+}

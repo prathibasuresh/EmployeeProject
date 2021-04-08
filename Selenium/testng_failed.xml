@@ -1,0 +1,10 @@
+<suite name="RetryFailedTestSuite">
+<listeners>
+<listener class-name="RetryAnalyzer.MyTransform"/>
+</listeners>
+<test name="RetryMultipleFailedTestcases">
+<classes>
+<class name="Test_Retry_Logic.MyTest1"/>
+</classes>
+</test>
+</suite>

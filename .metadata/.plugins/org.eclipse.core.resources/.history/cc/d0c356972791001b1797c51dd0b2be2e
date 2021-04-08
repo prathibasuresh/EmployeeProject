@@ -1,0 +1,24 @@
+package RetryAnalyzer;
+
+import org.testng.Assert;
+import org.testng.annotations.Test;
+
+import Retry_Logic.Retry_Analyzer;
+
+
+
+public class My_Test_Logic1 {
+	
+	@Test(retryAnalyzer=Retry_Logic.Retry_Analyzer.class)
+	public void Test1()
+	{
+		Assert.assertEquals(false, true);
+	}
+	
+	@Test(retryAnalyzer=Retry_Logic.Retry_Analyzer.class)
+	public void Test2()
+	{
+		Assert.assertEquals(false,true);
+	}
+
+}
